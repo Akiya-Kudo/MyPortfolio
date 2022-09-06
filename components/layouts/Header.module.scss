@@ -1,0 +1,29 @@
+.header {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+.inner {
+  height: 100%;
+  max-width: 2500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .logo {
+    margin: auto 20px;
+  }
+
+  .nav {
+    margin: auto 20px;
+    .ul {
+      .link {
+        display: inline-block;
+        margin: 0 20px;
+        font-size: 20px;
+      }
+    }
+  }
+}
