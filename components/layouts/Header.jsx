@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from "next/link"
 import styles from './Header.module.scss';
+import NavLink from '../elements/NavLink';
 
 export  const Header = () => {
     return (
@@ -8,14 +9,11 @@ export  const Header = () => {
         <header className={ styles.header }>
           <div className={ styles.inner }>
             <span className={ styles.logo }>
-              <Link href="/">Icon</Link>
+            <NavLink href="/" name="logo" />
             </span>
             <nav className={ styles.nav }>
-              <ul className={ styles.ul }>
-                <li className={ styles.link }><Link href="/">アバウト</Link></li>
-                <li className={ styles.link }><Link href="/">フォト</Link></li>
-                <li className={ styles.link }><Link href="/">コンタクト</Link></li>
-              </ul>
+              <NavLink href="/" name="アバウト" />
+              <NavLink href="/contact" name="コンタクト" />
             </nav>
           </div>
         </header>

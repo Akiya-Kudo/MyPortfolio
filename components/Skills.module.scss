@@ -1,0 +1,22 @@
+.skills {
+    width: 100%;
+    background-color: rgb(255, 247, 129);
+
+    .skillsContainer {
+        position: relative;
+        top: 50%;
+    }
+  }
+
+.ul {
+    background-color: rgb(50, 50, 50);
+
+    .list {
+        color: white;
+       font-family: "M PLUS Rounded 1c"; 
+       font-weight: bold;
+       font-size: larger;
+       list-style: none;
+       line-height: 3rem;
+      }
+}

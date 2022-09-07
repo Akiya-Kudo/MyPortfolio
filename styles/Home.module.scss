@@ -1,17 +1,6 @@
-
-.top {
-  height: 100vh;
-  width: 100%;
-  background-color: rgb(255, 247, 129);
-  text-align: center;
-  .name {
-    position: relative;
-    top: 50%;
-    font-size: large;
-    .wfnicomoji { font-family: "Nico Moji"; }
-  }
+.container {
+  
 }
-
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {
