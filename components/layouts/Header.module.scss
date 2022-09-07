@@ -2,6 +2,7 @@
     height: 70px;
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 .inner {
   height: 100%;
@@ -17,13 +18,9 @@
   }
 
   .nav {
-    margin: auto 20px;
-    .ul {
-      .link {
-        display: inline-block;
-        margin: 0 20px;
-        font-size: 20px;
-      }
-    }
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
