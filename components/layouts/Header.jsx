@@ -9,7 +9,7 @@ export  const Header = () => {
         <header className={ styles.header }>
           <div className={ styles.inner }>
             <span className={ styles.logo }>
-            <NavLink href="/" name="logo" />
+              <NavLink href="/" name="logo" />
             </span>
             <nav className={ styles.nav }>
               <NavLink href="/" name="アバウト" />
